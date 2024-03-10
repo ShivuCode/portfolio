@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "711500496347",
+    "project_id": "portfolio-5e1b6",
+    "storage_bucket": "portfolio-5e1b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711500496347:android:a91468319136a4eb44fbfe",
+        "android_client_info": {
+          "package_name": "com.shivu.portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY_RjZdMKlD1ikHEF3ZDdvpxgZijOSARE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
