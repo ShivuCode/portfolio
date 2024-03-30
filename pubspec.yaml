@@ -45,7 +45,6 @@ dependencies:
   mailer:
   cloud_firestore:
   url_launcher:
-  firebase_ml_vision: 
   image_picker:
   
 dev_dependencies:

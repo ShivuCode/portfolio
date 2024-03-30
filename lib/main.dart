@@ -2,9 +2,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:portfolio/FaceAuth/Login.dart';
+import 'package:portfolio/components/login.dart';
 import 'package:portfolio/portfolio.dart';
 import 'package:velocity_x/velocity_x.dart';
+
 Future<void> main() async {
   if (kIsWeb) {
     WidgetsFlutterBinding.ensureInitialized();
@@ -48,7 +49,7 @@ class MyApp extends StatelessWidget {
               return const Portfolio();
             } else {
               // User is not logged in, navigate to Login Screen
-              return FaceAuthenticationPage();
+              return const Login();
             }
           }
         },
